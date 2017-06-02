@@ -10,7 +10,6 @@ import numpy as np
 from time import time
 import math
 
-
 def is_prime(x):
     return 0 not in [x % i for i in range(2, int(math.sqrt(x)) + 1)]
 def is_prime3(x):
