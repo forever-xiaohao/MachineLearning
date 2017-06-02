@@ -2,6 +2,8 @@
 """
 @Time : 2017/6/2 - 17:09
 @Auther : Hao Chen
+1、求解素数
+2、赔率
 """
 
 import numpy as np
@@ -11,8 +13,6 @@ import math
 
 def is_prime(x):
     return 0 not in [x % i for i in range(2, int(math.sqrt(x)) + 1)]
-
-
 def is_prime3(x):
     flag = True
     for p in p_list2:
@@ -24,8 +24,6 @@ def is_prime3(x):
     if flag:
         p_list2.append(x)
     return flag
-
-
 if __name__ == "__main__":
     a = 2
     b = 1000
