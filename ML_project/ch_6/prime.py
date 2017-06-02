@@ -26,7 +26,6 @@ def is_prime3(x):
 if __name__ == "__main__":
     a = 2
     b = 1000
-
     # 方法1：直接计算
     t = time()
     p = [p for p in range(a, b) if 0 not in [p % d for d in range(2, int(math.sqrt(p)) + 1)]]
