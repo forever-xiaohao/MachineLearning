@@ -50,6 +50,7 @@ if __name__ == "__main__":
     print data['Jan'].min()
     print data['Jan'].max()
     print data['Jan'].mean()
+    print "这是测试"
 
     print '=========================='
     # 添加一行
