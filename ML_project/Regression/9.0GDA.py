@@ -10,8 +10,6 @@
 """
 import math
 
-
-
 if __name__ == "__main__":
 	learning_rate = 0.01
 	for a in range(1, 100):
