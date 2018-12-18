@@ -85,9 +85,6 @@ def test_DecisionTreeRegressor_depth(*data):
     plt.show()
 
 
-
-
-
 if __name__ == "__main__":
     X_train, X_test, Y_train, Y_test = create_data(100)
     # test_DecisionTreeRegressor(X_train, X_test, Y_train, Y_test)
