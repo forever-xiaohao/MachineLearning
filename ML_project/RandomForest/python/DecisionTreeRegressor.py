@@ -4,7 +4,7 @@
 @author: haoc
 @contact: 1012958103@qq.com
 @software: PyCharm
-@file: DecisionTree.py
+@file: DecisionTreeRegressor.py
 @time: 2018/12/18 13:19
 """
 import numpy as np
