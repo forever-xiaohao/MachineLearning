@@ -4,7 +4,7 @@
 @author: haoc
 @contact: 1012958103@qq.com
 @software: PyCharm
-@file: DecisionTreeClassifier.py
+@file: DecisionTreeClassifier方法解析.py
 @time: 2018/12/18 19:51
 """
 import numpy as np
