@@ -82,19 +82,19 @@ if __name__ == "__main__":
 
 	# 绘制2
 	plt.figure(facecolor='w', figsize=(9, 10))
-	plt.subplot(311)	# 子图 311的意思：3行1列的第一个
+	plt.subplot(311) 	# 子图 311的意思：3行1列的第一个
 	plt.plot(data['TV'], y, 'ro')
 	plt.title('TV')
 	plt.grid()
-	plt.subplot(312)	# 312：3行1列的第2个
+	plt.subplot(312) 	# 312：3行1列的第2个
 	plt.plot(data['Radio'], y, 'g^')
 	plt.title('Radio')
 	plt.grid()
-	plt.subplot(313)	# 313: 3行1列第3个
+	plt.subplot(313)	 # 313: 3行1列第3个
 	plt.plot(data['Newspaper'], y, 'b*')
 	plt.title('Newspaper')
 	plt.grid()
-	plt.tight_layout()	# 设置距离边缘的距离
+	plt.tight_layout()  	# 设置距离边缘的距离
 	plt.show()
 
 	x_train, x_test, y_train, y_test = train_test_split(x, y, train_size=0.8, random_state=1)
